@@ -6,5 +6,7 @@ int main()
 	int b=7;
 	int sum = a + b; 
 	int diff = a - b;
-	cout << "sum: " << sum << endl << "difference: " << diff << endl;
+	int prod = a * b;
+	int divi = a / b; 
+	cout << "sum: " << sum << endl << "difference: " << diff << endl << "product: " << prod << endl << "quotient: " << divi << endl;
 }
